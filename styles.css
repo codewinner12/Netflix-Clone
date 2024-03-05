@@ -1,0 +1,72 @@
+/* Reset some styles */
+/* Reset some styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color:lavender;
+}
+
+/* Header styles */
+header {
+    background-color: #141414;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #fff;
+    color: #141414;
+}
+
+header .selected {
+    background-color: #fff;
+    color: #141414;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), }
+    .tv-show h3 {
+        text-align: center;
+    }
+    
+    .tv-show p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .show-image {
+        width: 500px;
+        height: 300px;
+    }
